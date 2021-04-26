@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davies's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Scroll to top -->
+    <div class="scroll-top">
+      <ion-icon name="arrow-up-outline" class="arrow-top"></ion-icon>
+    </div>
+
+    <!-- Navigation section -->
+    <section id="navigation">
+      <div class="nav-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section id="nav-content">
+      <div class="close-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+      </div>
+      <div class="wrapper">
+        <h2 class="section-heading" data-outline="菜单">菜单</h2>
+        <nav>
+          <ul>
+            <li><a data-text="主页" href="#">主页</a></li>
+            <li><a data-text="关于" href="#about">关于</a></li>
+            <li><a data-text="以往项目" href="#testimonial">以往项目</a></li>
+            <li><a data-text="项目" href="#projects">项目</a></li>
+            <li><a data-text="联系我" href="#contact">联系我</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- First Screen -->
+    <section id="hero">
+      <div class="container">
+        <div class="left">
+          <p class="subheading">我叫小冬</p>
+          <h2 class="heading">
+            <div class="wrapper">
+              <span>前端</span>
+            </div>
+            <div class="wrapper">
+              <span>开发</span>
+            </div>
+            <div class="wrapper">
+              <span>工程师</span>
+            </div>
+          </h2>
+          <p class="desc">web端 手机端 项目开发、维护</p>
+        </div>
+        <div class="right">
+          <img src="./images/portrait.jpg" alt="人物像" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-heading" data-outline="服务内容">服务内容</h2>
+        <div class="all-items">
+          <div class="item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <h3 class="item-heading">web 开发</h3>
+            <p class="item-desc">响应式开发</p>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <h3 class="item-heading">移动端</h3>
+            <p class="item-desc">
+              web 开发 web 开发 web 开发 web 开发 web 开发 web 开发 web 开发 web
+              开发 web 开发 web 开发 web 开发 web 开发 web 开发 web 开发
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <h3 class="item-heading">js框架</h3>
+            <p class="item-desc">
+              web 开发 web 开发 web 开发 web 开发 web 开发 web 开发 web 开发 web
+              开发 web 开发 web 开发 web 开发 web 开发 web 开发 web 开发
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial section-->
+    <section id="testimonial">
+      <div class="container">
+        <h1 class="section-heading" data-outline="以往项目">以往项目</h1>
+        <div class="all-items">
+          <div class="item">
+            <div class="img">
+              <img src="./images/portrait.jpg" alt="项目图片" />
+            </div>
+            <h3 class="testimonial-heading">环保项目</h3>
+            <p class="testimonial-subheading">生态红线禁养区数据管理</p>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <p class="testimonial-desc">
+              生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="img">
+              <img src="./images/portrait.jpg" alt="项目图片" />
+            </div>
+            <h3 class="testimonial-heading">环保项目</h3>
+            <p class="testimonial-subheading">生态红线禁养区数据管理</p>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <p class="testimonial-desc">
+              生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="img">
+              <img src="./images/portrait.jpg" alt="项目图片" />
+            </div>
+            <h3 class="testimonial-heading">环保项目</h3>
+            <p class="testimonial-subheading">生态红线禁养区数据管理</p>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1"
+                  d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <p class="testimonial-desc">
+              生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理生态红线禁养区数据管理
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- States section -->
+    <section id="states">
+      <div class="container">
+        <h2 class="section-heading" data-outline="数据">数据</h2>
+        <div class="all-items">
+          <div class="item">
+            <h2 class="numbers">50+</h2>
+            <h3 class="states-subheading">完成项目</h3>
+            <p>完成项目完成项目完成项目完成项目完成项目完成项目完成项目</p>
+          </div>
+
+          <div class="item">
+            <h2 class="numbers">30+</h2>
+            <h3 class="states-subheading">完成项目</h3>
+            <p>完成项目完成项目完成项目完成项目完成项目完成项目完成项目</p>
+          </div>
+
+          <div class="item">
+            <h2 class="numbers">4</h2>
+            <h3 class="states-subheading">从业时间</h3>
+            <p>完成项目完成项目完成项目完成项目完成项目完成项目完成项目</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-heading" data-outline="关于">关于</h2>
+        <div class="wrapper">
+          <div class="left">
+            <div class="card">
+              <div class="img">
+                <img src="./images/portrait.jpg" alt="关于图像" />
+              </div>
+              <p class="card-desc">
+                卡片文字描述卡片文字描述卡片文字描述卡片文字描述卡片文字描述卡片文字描述卡片文字描述卡片文字描述
+              </p>
+              <h3 class="card-name">卡片标题</h3>
+              <p class="card-subtitle">卡片自标题</p>
+            </div>
+          </div>
+          <div class="right">
+            <p class="sub-heading">你好!我是小东</p>
+            <h2 class="slogan">前端开发</h2>
+            <p class="right-text">
+              前端开发前端开发前端开发前端开发前端开发前端开发前端开发前端开发前端开发
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-heading" data-outline="项目">项目</h2>
+        <div class="all-items">
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="./images/project-1.jpg" alt="projectimg" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">project1</h2>
+              <h3 class="project-subtitle">project1 subtitle</h3>
+              <p class="project-desc">
+                project1 description project1 description project1 description
+                project1 description project1 description project1 description
+                project1 description project1 description
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="./images/project-2.jpg" alt="projectimg" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">project1</h2>
+              <h3 class="project-subtitle">project1 subtitle</h3>
+              <p class="project-desc">
+                project1 description project1 description project1 description
+                project1 description project1 description project1 description
+                project1 description project1 description
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="./images/project-3.jpg" alt="projectimg" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">project1</h2>
+              <h3 class="project-subtitle">project1 subtitle</h3>
+              <p class="project-desc">
+                project1 description project1 description project1 description
+                project1 description project1 description project1 description
+                project1 description project1 description
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-heading" data-outline="联系我">联系我</h2>
+        <div class="wrapper">
+          <div class="left">
+            <h2 class="contact-heading">了解/聘用</h2>
+            <p class="contact-desc">欢迎垂询</p>
+            <div class="contact-info">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">18571850451</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <ion-icon name="mail-unread-outline"></ion-icon>
+                    </span>
+                    <span class="text">Mr.j@tom.com</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span class="icon">
+                      <ion-icon name="navigate-outline"></ion-icon>
+                    </span>
+                    <span class="text">黑龙江省 哈尔滨市</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-wrapper">
+              <img src="./images/undraw_contact_us_15o2.svg" alt="contact" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer">
+      <div class="container">
+        <footer>
+          <div class="col-1">
+            <div class="logo">
+              <div class="logo-text">
+                <span>欢</span>
+                <span>迎</span>
+                <span>垂</span>
+                <span>询</span>
+              </div>
+            </div>
+            <p>
+              logo logo logo logo logo logo logo logo logo logo logo logo logo
+              logo logo logo logo logo logo logo logo logo logo logo
+            </p>
+          </div>
+          <div class="col-2">
+            <h2 class="column-heading">important<br />links</h2>
+            <ul>
+              <li><a href="#hero">首页</a></li>
+              <li><a href="#about">关于</a></li>
+              <li><a href="#contact">联系方式</a></li>
+              <li><a href="#projects">案例</a></li>
+              <li><a href="#testimonal">以往项目</a></li>
+            </ul>
+          </div>
+
+          <div class="col-3">
+            <h2 class="column-heading">contact<br />info</h2>
+            <ul>
+              <li><a href="mailto:mr.j@tom.com">Mr.j@tom.com</a></li>
+              <li><a href="tel:18571850451">18571850451</a></li>
+              <li><a href="javascript:void(0);">黑龙江省哈尔滨市</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4">
+            <h2 class="column-heading">social<br />links</h2>
+            <ul>
+              <li>
+                <a href="javascript:void(0);" class="weixin">
+                  WeChat
+                  <img
+                    class="qrcode1"
+                    src="./images/erweima.jpeg"
+                    alt="微信二维码"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0);" class="qq">
+                  QQ
+                  <img class="qrcode2" src="./images/qq.jpeg" alt="qq二维码" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- copyright -->
+    <section id="copyright">
+      <div class="container">
+        <p>&copy; Copyright 2021 Jld. All right Reserved</p>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
