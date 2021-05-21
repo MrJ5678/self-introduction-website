@@ -472,6 +472,7 @@ ion-icon.arrow-top {
 
 #services .item-desc {
   color: var(--secondary-gray);
+  height: 10rem;
 }
 
 #services .item:nth-child(1) .icon {
